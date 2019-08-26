@@ -17,5 +17,5 @@
 
 ### Add file to staging 
 - git add `filename`
-### Remove file from index/ Remove from staging area
+### To unstage a file
 - git rm --cached `filename`
