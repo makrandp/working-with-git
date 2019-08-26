@@ -18,6 +18,6 @@
 ### Add file to staging 
 - git add `filename`
 ### To unstage a file BEFORE COMMIT
-- git rm --cached `filename`
+- git rm --cached `filename` (this will remove file after the commit)
 ### To unstage a file AFTER COMMIT
 - git reset HEAD -- `filename`
