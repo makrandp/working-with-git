@@ -1,6 +1,6 @@
 # Working with Git
 
-- [Basics] (https://medium.com/@stevenpcurtis.sc/learning-the-essential-git-commands-d1adf4537e66)
+- [Basics](https://medium.com/@stevenpcurtis.sc/learning-the-essential-git-commands-d1adf4537e66)
 
 
 ## Alias
@@ -17,5 +17,7 @@
 
 ### Add file to staging 
 - git add `filename`
-### To unstage a file
+### To unstage a file BEFORE COMMIT
 - git rm --cached `filename`
+### To unstage a file AFTER COMMIT
+- git reset HEAD -- `filename`
