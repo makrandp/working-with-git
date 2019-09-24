@@ -21,3 +21,6 @@
 - git rm --cached `filename` (this will remove file after the commit)
 ### To unstage a file AFTER COMMIT
 - git reset HEAD -- `filename`
+
+### Checkout remote branch
+- git checkout --track origin/branch-name
