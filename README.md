@@ -28,4 +28,4 @@
 ### To discard changes to all files which are tracked and commited
 - git checkout -- .
 ### To discard changes to a file which is tracked 
-- git checkout -- `fileName`
+- git checkout -- `path/to/file`
