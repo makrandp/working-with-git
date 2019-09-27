@@ -1,7 +1,7 @@
 # Working with Git
 
 - [Basics](https://medium.com/@stevenpcurtis.sc/learning-the-essential-git-commands-d1adf4537e66)
-
+- [Basics+](https://medium.com/datadriveninvestor/git-for-beginner-f438adfc3599)
 
 ## Alias
 - [Git Aliases Reference 1](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
@@ -29,3 +29,25 @@
 - git checkout -- .
 ### To discard changes to a file which is tracked 
 - git checkout -- `path/to/file`
+
+## Scenario with Remove/Delete
+### delete your tracked files
+- git rm <file-path>
+### If your file is in staging area then you have to give additional force flag.
+- git rm <file-path> -f
+###  delete files from git repository but not from your file system.
+- git rm --cached <file-path>
+
+## Git Logs
+- git log --oneline
+- git log --oneline --graph --decorate --all
+### you want to see the commit message of a specific author
+- git log --author="John Doe"
+
+## Merge branch
+### I always merge with --no-ff(no fast forward)
+- git merge --no-ff <branch-name-to-merge> 
+
+## Git reset
+### Reset branch to a particular commit
+
