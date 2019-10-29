@@ -43,6 +43,7 @@
 - git log --oneline --graph --decorate --all
 ### you want to see the commit message of a specific author
 - git log --author="John Doe"
+- git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --author="Mak Patil"
 
 ## Merge branch
 ### I always merge with --no-ff(no fast forward)
