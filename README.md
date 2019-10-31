@@ -52,3 +52,12 @@
 ## Git reset
 ### Reset branch to a particular commit
 
+## Reset Everything
+- Have you ever started working on a branch, making changes, but you change your mind and want to completely start over? Use this command to remove any changes and reset the branch to a clean state.
+	- `git reset --hard HEAD`
+
+## Useful commands
+- if you have commit hash and you want to see all the code put in for that commit
+	- `git show 4ce75a333a29f1aafc4817dd8cb128d3e852572f`
+
+
