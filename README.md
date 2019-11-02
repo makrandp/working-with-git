@@ -60,4 +60,5 @@
 - if you have commit hash and you want to see all the code put in for that commit
 	- `git show 4ce75a333a29f1aafc4817dd8cb128d3e852572f`
 
-
+- if there is a branch which is available remotely but not available locally. to checkout remote branch
+	- `git checkout -b branchName origin/branchName`
