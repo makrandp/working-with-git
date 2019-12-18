@@ -61,7 +61,7 @@
 	- `git show 4ce75a333a29f1aafc4817dd8cb128d3e852572f`
 - if there is a branch which is available remotely but not available locally. to checkout remote branch
 	- `git checkout -b branchName origin/branchName`
-- if you merged your feature branch(not pushed the commit to origin) and now decide to revert that recent merge 
+- if you merged your feature branch(not pushed the commit to origin) and now decide to undo that recent merge 
 	- `git reset --hard HEAD@{1}`
 	- https://stackoverflow.com/questions/11722533/rollback-a-git-merge/29110174
 	- https://stackoverflow.com/questions/2389361/undo-a-git-merge-that-hasnt-been-pushed-yet
